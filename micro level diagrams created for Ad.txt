@@ -1,0 +1,9 @@
+micro level diagrams created for Admin flow end-end (ie.. drupal to AWS Cloud and AWS Cloud to drupal)
+micro-level details explaining the aws-drupal connector (what are the component, how it would be connected, function calls, and success/error messages, OKta integration)
+Sameer to do is : Define & refine the stories for each of the tickets assigned to Suhasini and assign it to Ankit and Gaurav for action (includes, what, when, where, how, test cases, Acceptance criteria, Definition of Done)
+Sameer needs to send out meeting invites to Jagadeesh, by way of Suhasini
+Ankit to work on Admin flow
+Gaurav to work on B2C user flow for registering and login and invoking APIs via developer portal
+Micro level test cases that would be used for each test case scenario
+Sameer to contact Avishkar S (Ux designer), and explain him the page design for Admin pages as well as B2C pages. The single point of contact for Avishkar and Jagadeesh would be through you
+ 
