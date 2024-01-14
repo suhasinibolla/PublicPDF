@@ -1,0 +1,26 @@
+The APICoE Admin (Internal) user login via SSO.
+Once SSO authenticated on OKTA Admin will be redirected to Form to publish APIs to AWS API Gateway.
+Admin to enter all the details on the form as below:
+API/Product Name
+API Region
+Portfolio User
+Business unit
+Threshold limit
+Upload Swagger file
+After filling all the details when admin clicks Submit, It will invoke AWS Drupal connector and publish the API to AWS API gateway.
+Once the request is success, AWS gateway will return response as success in a message form, which will be displayed on other Drupal page.
+The same Drupal page which displays message should also invoke the values of AWS API gateway (All the APIs which published for that particular region)
+Create an Admin form with following fields:... by Sameer Mohammad
+
+Create an Admin form with following fields:
+API/Product Name (/token,/checksum) Input Box
+API Region (UK & US) Dropdown
+Portfolio User (BU Admin, APICoE Admin)  Dropdown
+Business unit (BIS Gateway, CIS Gateway)  Dropdown
+Threshold Limit (Limit for API publishing)  Input Box
+Browse (to upload swagger file)File Input
+Submit button and Clear Button Button
+has context menu
+
+
+has context menu
